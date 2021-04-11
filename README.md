@@ -12,5 +12,9 @@ HTML, CSS, Bootstrap, Bit of JavaScript, Python (Framework: Django), VsCode
 2. Multipage Layout
 3. Rgistration: Users have to register to be able to upload book
 <img width="1304" alt="Screenshot 2021-04-11 at 10 27 22 a m" src="https://user-images.githubusercontent.com/51726237/114301216-cb947c80-9abb-11eb-85bc-d85eb6245f7a.png">
-4. 
-
+4. Users can request for password change -- should they forget their login details
+<img width="1373" alt="Screenshot 2021-04-11 at 10 28 51 a m" src="https://user-images.githubusercontent.com/51726237/114323571-b94b2a80-9b1d-11eb-9874-8afecce11cda.png">
+5. Users gets a pre-filled profile page, and can edit and update its details
+<img width="1294" alt="Screenshot 2021-04-11 at 10 30 44 a m" src="https://user-images.githubusercontent.com/51726237/114323623-f4e5f480-9b1d-11eb-940f-d35939325969.png">
+6. Users can change their password from the setings section
+<img width="1136" alt="Screenshot 2021-04-11 at 10 35 55 a m" src="https://user-images.githubusercontent.com/51726237/114323661-1d6dee80-9b1e-11eb-8dd7-10e449bb6819.png">
