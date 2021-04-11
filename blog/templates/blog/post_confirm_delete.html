@@ -1,0 +1,25 @@
+{% extends "baser.html" %}
+{% block content %}
+
+<div class="loginpage mt-5 mb-5">
+<div class="col-md-10" style="margin: auto; margin-top: 100px;">
+ <div class="content-section">
+
+        <form method="POST">
+            {% csrf_token %}
+            <fieldset class="form-group">
+                <legend class="border-bottom mb-4">Delete Post</legend>
+                <h2>Are you sure you want to delete the post "{{ post.title }}"</h2>
+            </fieldset>
+            <div class="form-group">
+                <button class="btn btn-outline-danger" type="submit">Yes,Delete</button>
+                <a class="btn btn-outline-secondary" href="{% url 'blog:homepage'%}">Cancel</a>
+            </div>
+        </form>
+    </div>
+
+</div>
+</div>
+<br><br> <br> <br>
+
+{% endblock content %}

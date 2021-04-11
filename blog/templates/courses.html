@@ -1,0 +1,69 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+
+  <main id="main" data-aos="fade-in">
+
+    <!-- ======= Breadcrumbs ======= -->
+    <div class="breadcrumbs">
+      <div class="container">
+        <h2>Book List</h2>
+        <p>Est dolorum ut non facere possimus quibusdam eligendi voluptatem. Quia id aut similique quia voluptas sit quaerat debitis. Rerum omnis ipsam aperiam consequatur laboriosam nemo harum praesentium. </p>
+      </div>
+    </div><!-- End Breadcrumbs -->
+
+    <!-- ======= Courses Section ======= -->
+    <section id="courses" class="courses">
+      <div class="container" data-aos="fade-up">
+
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+          {% for book in object_list %}
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="course-item">
+              <img src="{{ book.cover.url }}" class="img-fluid" alt="...">
+              <div class="course-content">
+                <div class="d-flex justify-content-between align-items-center mb-3">
+                  <h4>{{ book.category }}</h4>
+                  <!-- <p class="price">{{ book.book_author }}</p> -->
+                  <p> <small> Written by : {{ book.book_author }}</small> </p>
+                </div>
+
+                <h3><a href="course-details.html">{{ book.book_title }}</a></h3>
+                <p>posted on {{ book.entry_date }}</p>
+                <p>{{ book.about_book }}</p>
+
+                <div class="d-grid gap-2">
+                <a href="{% url 'book_detail' book.pk %}" class="btn btn-light btn-sm">Read More &rarr;</a>
+                </div>
+
+                <div class="trainer d-flex justify-content-between align-items-center">
+                  <div class="trainer-profile d-flex align-items-center">
+                    <img src="#" class="img-fluid" alt="">
+                    <span>{{ book.about_author }}</span>
+                  </div>
+                  <div class="trainer-rank d-flex align-items-center">
+                    <i class="bx bx-user"></i>&nbsp;50
+                    &nbsp;&nbsp;
+                    <i class="bx bx-heart"></i>&nbsp;65
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> <!-- End Course Item-->
+          {% endfor %}
+
+
+
+
+
+        </div>
+
+      </div>
+    </section><!-- End Courses Section -->
+
+  </main><!-- End #main -->
+
+{% endblock %}

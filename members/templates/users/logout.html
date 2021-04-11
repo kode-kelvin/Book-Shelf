@@ -1,0 +1,17 @@
+{% extends 'baser.html' %}
+
+
+{% block content %}
+<br>
+<div class="col-md-9" style="margin: auto; margin-top: 75px;">
+      <div class="alert alert-info col-md-8 mt-4 mb-4">
+        <span style="z-index: 9;"><h4>You have sucessfully logged out. </h4></span>
+      </div>
+      <div class="col-md-8 mt-4 mb-4">
+
+         <small class="text-muted ml-2">
+                    <a href="{% url 'login' %}">Click to login ?</a>
+                </small>
+      </div>
+</div>
+{% endblock %}

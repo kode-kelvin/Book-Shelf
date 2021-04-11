@@ -1,0 +1,27 @@
+{% extends "baser.html" %}
+{% load bootstrap %}
+{% block content %}
+
+<div class="loginpage mt-5 mb-5">
+<div class="col-md-10" style="margin: auto; margin-top: 100px;">
+ <div class="content-section">
+    <h2>Are you sure you want to update the post "{{ post.title }}"</h2>
+
+        <form method="POST">
+            {% csrf_token %}
+            {{form|bootstrap}}
+            <fieldset class="form-group">
+                <legend class="border-bottom mb-4">Update Book Details</legend>
+
+            </fieldset>
+            <div class="form-group">
+                <button class="btn btn-outline-info" type="submit">Update</button>
+            </div>
+        </form>
+    </div>
+
+</div>
+</div>
+<br><br> <br> <br>
+
+{% endblock content %}
