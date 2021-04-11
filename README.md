@@ -18,3 +18,12 @@ HTML, CSS, Bootstrap, Bit of JavaScript, Python (Framework: Django), VsCode
 <img width="1294" alt="Screenshot 2021-04-11 at 10 30 44 a m" src="https://user-images.githubusercontent.com/51726237/114323623-f4e5f480-9b1d-11eb-940f-d35939325969.png">
 6. Users can change their password from the setings section
 <img width="1136" alt="Screenshot 2021-04-11 at 10 35 55 a m" src="https://user-images.githubusercontent.com/51726237/114323661-1d6dee80-9b1e-11eb-8dd7-10e449bb6819.png">
+7. Filter books by category
+<img w<img width="520" alt="Screenshot 2021-04-11 at 10 41 11 a m" src="https://user-images.githubusercontent.com/51726237/114324263-11376080-9b21-11eb-9a61-07f0acafe467.png">
+idth="936" alt="Screenshot 2021-04-11 at 11 46 20 p m" src="https://user-images.githubusercontent.com/51726237/114324125-63c44d00-9b20-11eb-8ba2-2fcf0d7a46c7.png">
+8. Users can leave a comment 
+![Uploading Screenshot 2021-04-11 at 10.41.11 a.m..png…]()
+
+# FUTURE FEATURES
+1. Favourite list of books
+2. Pay for some premium books
