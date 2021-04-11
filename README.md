@@ -19,8 +19,11 @@ HTML, CSS, Bootstrap, Bit of JavaScript, Python (Framework: Django), VsCode
 6. Users can change their password from the setings section
 <img width="1136" alt="Screenshot 2021-04-11 at 10 35 55 a m" src="https://user-images.githubusercontent.com/51726237/114323661-1d6dee80-9b1e-11eb-8dd7-10e449bb6819.png">
 7. Filter books by category
-<img w<img width="520" alt="Screenshot 2021-04-11 at 10 41 11 a m" src="https://user-images.githubusercontent.com/51726237/114324263-11376080-9b21-11eb-9a61-07f0acafe467.png">
-idth="936" alt="Screenshot 2021-04-11 at 11 46 20 p m" src="https://user-images.githubusercontent.com/51726237/114324125-63c44d00-9b20-11eb-8ba2-2fcf0d7a46c7.png">
+<img width="936" alt="Screenshot 2021-04-11 at 11 46 20 p m" src="https://user-images.githubusercontent.com/51726237/114324585-cb7b9780-9b22-11eb-9ca4-19bc88d0d9a1.png">
+
+
+
+
 8. Users can leave a comment 
 ![Uploading Screenshot 2021-04-11 at 10.41.11 a.m..png…]()
 
