@@ -21,9 +21,6 @@ HTML, CSS, Bootstrap, Bit of JavaScript, Python (Framework: Django), VsCode
 7. Filter books by category
 <img width="936" alt="Screenshot 2021-04-11 at 11 46 20 p m" src="https://user-images.githubusercontent.com/51726237/114324585-cb7b9780-9b22-11eb-9ca4-19bc88d0d9a1.png">
 
-
-
-
 8. Users can leave a comment 
 ![Uploading Screenshot 2021-04-11 at 10.41.11 a.m..png…]()
 
