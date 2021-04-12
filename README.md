@@ -22,6 +22,11 @@ HTML, CSS, Bootstrap, Bit of JavaScript, Python (Framework: Django), VsCode
 <img width="936" alt="Screenshot 2021-04-11 at 11 46 20 p m" src="https://user-images.githubusercontent.com/51726237/114324585-cb7b9780-9b22-11eb-9ca4-19bc88d0d9a1.png">
 
 8. Users can leave a comment 
+
+<img width="520" alt="Screenshot 2021-04-11 at 10 41 11 a m" src="https://user-images.githubusercontent.com/51726237/114440383-f5d06200-9bc1-11eb-90e0-3ed29606032c.png">
+
+
+
 ![Uploading Screenshot 2021-04-11 at 10.41.11 a.m..png…]()
 
 # FUTURE FEATURES
